@@ -18,5 +18,9 @@ public class AppStarter {
         tree.root.left.left.right = new Node(6);
         tree.root.left.right.left = new Node(9);
         tree.root.right.left.right = new Node(10);
+
+        Outputer.printInOrder(tree);
+        Outputer.printPreOrder(tree);
+        Outputer.printPostOrder(tree);
     }
 }
